@@ -10,7 +10,7 @@ public class GameController {
 	@GetMapping("/riddles-you-know")
 	public String showGameHomePage(){
 		
-		return "Home Page";
+		return "/riddles-you-know";
 	}
 
 }
