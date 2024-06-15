@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,8 +53,10 @@
     </header>
     <main>
         <div class="content">
-            <h2>Coming Soon!</h2>
-            <p>Stay tuned for a new and exciting project where you'll find riddles you know and love. Check back with us soon!</p>
+            <h2 data-th-text="${question}">Leo Hakuna Maswali!</h2>
+			<p data-th-text="${answer}">Leo Hakuna Maswali!</p>
+		
+			
         </div>
     </main>
     <footer>
