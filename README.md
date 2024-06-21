@@ -19,7 +19,8 @@ Riddles You Know is a Spring Boot web application designed to test your riddle-s
 * Ensure you have Java 17 and Maven installed on your system.
 * Clone or download the project.
 * Open a terminal and navigate to the project directory.
-* Run ``` mvn clean install```.
+* Build ``` mvn clean install```.
+* Run ``` mvn spring-boot:run```.
 * The application will start on port 8080 by default. Access it at http://localhost:8080 in your web browser.
 
 ## Project Structure:
